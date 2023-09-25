@@ -1,7 +1,7 @@
-package com.example.rickandmortyapp.presenter
+package com.example.rickandmortyapp.presenter.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.rickandmortyapp.R
 
 class MainActivity : AppCompatActivity() {
