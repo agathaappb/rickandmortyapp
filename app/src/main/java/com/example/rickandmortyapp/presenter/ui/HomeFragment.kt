@@ -27,10 +27,9 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.btnClickme.setOnClickListener {
-            Toast.makeText(requireContext(),"Test click",Toast.LENGTH_SHORT).show()
             val transaction = requireActivity().supportFragmentManager.beginTransaction()
             transaction.replace(R.id.container_main, CharacterFragment.newInstance())
-            transaction.disallowAddToBackStack()
+            transaction.addToBackStack("Home")
             transaction.commit()
         }
 
