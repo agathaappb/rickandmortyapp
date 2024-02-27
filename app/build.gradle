@@ -43,6 +43,8 @@ dependencies {
     implementation(libs.androidx)
     implementation(libs.material.design)
     implementation(libs.material.design)
-    implementation(libs.junit.test)
-    implementation(libs.bundles.android.dep.test)
+    implementation "io.noties.markwon:core:4.2.0"
+
+    testImplementation(libs.junit.test)
+    testImplementation(libs.bundles.android.dep.test)
 }

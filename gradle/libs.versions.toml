@@ -9,7 +9,7 @@ espresso = "3.5.1"
 
 [libraries]
 androidx-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "ktx"}
-androidx = {group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat"}
+androidx = {module = "androidx.appcompat:appcompat", version.ref = "appcompat"}
 material-design = {group = "com.google.android.material", name = "material", version.ref = "design"}
 constraint-layout = {group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraint"}
 junit-test = {module = "junit:junit", version.ref = "junit"}
